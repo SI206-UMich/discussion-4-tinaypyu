@@ -87,6 +87,19 @@ def main():
     print("Perimeter:", r.perimeter())
     print()
 
+    r = Rectangle(0,0)
+    print(r)
+    print ("Expected: width = 0, height = 0, both area and peri invalid")
+    print("Area:", r.area())
+    print("Perimeter:", r.perimeter())
+    print() 
+
+    r = Rectangle(5,4)
+    print(r)
+    print ("Expected: width = 5, height = 4, area = 20, peri = 18")
+    print("Area:", r.area())
+    print("Perimeter:", r.perimeter())
+    print() 
 
 if __name__ == "__main__":
     main()
