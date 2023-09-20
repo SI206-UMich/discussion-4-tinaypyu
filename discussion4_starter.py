@@ -6,7 +6,7 @@ class Rectangle():
     # It sets an instance variable, "height" to the passed argument, height
 
     # YOUR CODE HERE
-    def __init__(self, height, width):
+    def __init__(self, width, height):
         self.height = height 
         self.width = width 
 
@@ -45,7 +45,7 @@ class Rectangle():
 
     # YOUR CODE HERE
     def area(self): 
-        if self.verify_input() == True: 
+        if self.verify_input(): 
             return self.width * self.height 
         else: 
             return("Invalid input")
@@ -61,7 +61,7 @@ class Rectangle():
     # YOUR CODE HERE
     
     def perimeter(self): 
-        if self.verify_input() == True: 
+        if self.verify_input(): 
             return (self.width + self.height) * 2 
         else: 
             return("Invalid input")
