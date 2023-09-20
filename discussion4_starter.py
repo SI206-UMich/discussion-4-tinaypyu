@@ -79,5 +79,14 @@ def main():
     print("Perimeter:", r.perimeter())
     print()
 
+    # more testing 
+    r = Rectangle(-20,-10)
+    print(r)
+    print ("Expected: width = -20, height = -10, both area and peri invalid")
+    print("Area:", r.area())
+    print("Perimeter:", r.perimeter())
+    print()
+
+
 if __name__ == "__main__":
     main()
